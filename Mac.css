@@ -9,7 +9,7 @@
 }
 #MacMain div{
     background-position: center;
-    background-size:89%;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 #macview{
@@ -141,12 +141,12 @@
     display: grid;
     grid-template-columns: repeat(7,380px);
     gap: 40px;
-    height: 600px;
+    height: 780px;
     overflow-x: scroll;
     scrollbar-width: none;
 }
 .divgrid div{
-   height: 590px;
+   height: 760px;
     /* border: 1px solid black; */
     border-radius: 20px;
     box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
