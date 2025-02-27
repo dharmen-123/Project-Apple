@@ -133,6 +133,48 @@
 }  */
 
  /* Second text Css Is start here */
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hello h1{
+    font-size: 200px;
+    text-align: center;
+    /* font-family: "Playwrite IT Moderna", serif; */
+    font-family: "Dancing Script", serif;
+    font-weight: bold;
+    /* width: 40%; */
+    animation: hel 10s ease-in-out  infinite,type 5s ease infinite;;
+    overflow: hidden;
+    /* border-right:5px solid green; */
+    white-space:nowrap;
+    /* padding-left: 15%; */
+}
+@keyframes hel{
+    0%{
+        color: red;
+    }
+    20%{
+        color: rgb(7, 181, 249);
+    }
+    40%{
+        color: rgb(243, 21, 188);
+    }
+    60%{
+        color: rgb(255, 6, 114);
+    }
+    80%{
+        color: yellow;
+    }
+    100%{
+        color: rgb(247, 126, 5);
+    }
+}
+@keyframes type{
+    from{width: 0%;}
+    to{width: 100%;}
+}
 #TopMac .Sectext{
     padding-left: 4%;
   font-size: 45px;
