@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 #MacMain{
-    margin-top: 5%;
+   padding-top: 5%;
     width: 100%;
 }
 #MacMain div{
     background-position: center;
-    background-size: cover;
+    background-size:89%;
     background-repeat: no-repeat;
 }
 #macview{
@@ -24,7 +24,6 @@
     /* overflow-x: scroll; */
     scrollbar-width: none;
 }
-
 .viewmac div{
     height: 110px;
     /* border: 1px solid black; */
@@ -34,9 +33,33 @@
     font-family:cursive;
     margin: 1%;
     color: black;
-    box-shadow: 4px 4px 10px 1px rgb(71, 68, 68);
+    /* box-shadow: 2px 2px 20px .5px rgb(71, 68, 68); */
    border-radius: 10px;
     padding-top: 75%;
+}
+.viewmac div:hover{
+    transform: scale(1.050);
+}
+.macicon1{
+    background-image: url(macimg/Ticons1.png);
+}
+.macicon2{
+    background-image: url(macimg/Ticons2.png);
+}
+.macicon3{
+    background-image: url(macimg/Ticons3.png);
+}
+.macicon4{
+    background-image: url(macimg/Ticons4.png);
+}
+.macicon5{
+    background-image: url(macimg/Ticons5.png);
+}
+.macicon6{
+    background-image: url(macimg/Ticons6.png);
+}
+.macicon7{
+    background-image: url(macimg/Ticons7.png);
 }
 #TopMac{
     padding-left: 2%;
@@ -47,13 +70,13 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 10%;
+    padding-left: 6%;
+    padding-right: 7%;
     text-shadow: 8px 8px 10px rgb(61, 60, 60);
     color: rgb(82, 78, 78);
 }
 #TopMac #Mtext .text2 p{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     font-size: 30px;
       text-shadow: none;
 }
@@ -118,17 +141,54 @@
     display: grid;
     grid-template-columns: repeat(7,380px);
     gap: 40px;
-    height: 650px;
+    height: 600px;
     overflow-x: scroll;
     scrollbar-width: none;
 }
 .divgrid div{
-   height: 630px;
-    border: 1px solid black;
-    border-radius: 10px;
+   height: 590px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
     box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
 }
 .divgrid div:hover{
     transform: scale(1.010);
-
+}
+.getknow1{
+    background-image: url(macimg/getknow5.png);
+}
+.getknow2{
+    background-image: url(macimg/getknow6.png);
+}
+.getknow3{
+    background-image: url(macimg/getknow1.png);
+}
+.getknow4{
+    background-image: url(macimg/grtknow2.png);
+}
+.getknow5{
+    background-image: url(macimg/grtknow4.png);
+}
+.getknow6{
+    background-image: url(macimg/grtkonw3.png);
+}
+.getknow7{
+    background-image: url(macimg/getknow7.png);
+}
+#thirdsec{
+    padding-left: 6%;
+    font-size: 35px;
+}
+#thirdsec .Macbutton{
+    display: flex;
+    gap: 60px;
+}
+#thirdsec .Macbutton button{
+    width: 110px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 19px;
+    font-size: 20px;
+    transform: scale(1.070);
 }
