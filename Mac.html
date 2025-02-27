@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Pro</title>
+    <link rel="stylesheet" href="indexmain.css">
+    <link rel="stylesheet" href="Store.css">
+    <link rel="shortcut icon" href="images/applelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="Mac.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header part is start from here  -->
+    <header>
+       <div id="Topbar">
+          <div class="navbar" >
+              <div class="logo">
+                  <a href="indexmain.html "><img src="images/applelogo.png" alt=""></a>
+              </div>
+              <nav>
+                 <ul class="links">
+                    <li><a href="Store.html">Store</a></li>
+                    <li><a href="Mac.html">Mac</a></li>
+                    <li><a href="">ipad</a></li>
+                    <li><a href="">iphone</a></li>
+                    <li><a href="">Watches</a></li>
+                    <li><a href="">Airpods</a></li>
+                    <li><a href="">Television</a></li>
+                    <li><a href="">Entertainment</a></li>
+                    <li><a href="">Accesories</a></li>
+                    <li><a href="">Support</a></li>
+                 </ul>
+              </nav>
+              <div id="iconbutton">
+              <div class="icon" >
+                  <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="icon" >
+                  <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+              <div class="barbutton">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="dropdownmenu">
+             <ul>
+                <li><a href="Store.html">* Store</a></li>
+                <li><a href="Mac.html">* Mac</a></li>
+                <li><a href="">* ipad</a></li>
+                <li><a href="">* iphone</a></li>
+                <li><a href="">* Watches</a></li>
+                <li><a href="">* Airpods</a></li>
+                <li><a href="">* Television</a></li>
+                <li><a href="">* Entertainment</a></li>
+                <li><a href="">* Accesories</a></li>
+                <li><a href="">* Support</a></li>
+                <li><a href="">* LOGIN</a></li>
+             </ul>
+          </div>
+        </div>
+    </header>
+    <script>
+        const button = document.querySelector('.barbutton')
+        const buttonicon = document.querySelector('.barbutton i')
+        const dropmenu = document.querySelector('.dropdownmenu')
+
+        button.onclick = function(){
+            dropmenu.classList.toggle('open')
+            const isOpen =dropmenu.classList.contains('open')
+
+            buttonicon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+    <!-- HEADER part and top navbr part is End -->
+
+    <main>
+        <div id="MacMain">
+            <section id="macview">
+                <div class="viewmac">
+                    <a href=""><div>MacBookAir</div></a>
+                    <a href=""><div>MacBook Pro</div></a>
+                    <a href=""><div>iMac</div></a>
+                    <a href=""><div>Mac mini</div></a>
+                    <a href=""><div>Mac Pro</div></a>
+                    <a href=""><div>Displays</div></a>
+                    <a href=""><div>Shop Mac</div></a>
+                </div>
+            </section><br><br><br>
+        <section id="TopMac">
+            <div id="Mtext">
+             <div>
+               <h1>Welcome</h1>
+                <p>Mac World..</p>
+            </div>
+            <div class="text2">
+                <p>If you can dream it,<br>
+                    Mac can do it.</p>
+            </div>
+            </div> <br><br>
+            <div class="Macvideo">
+                <video src="video/macvideo.mp4" autoplay loop muted></video>
+            </div> <br><br><br><br><br><br>
+            <div class="Sectext">
+                <h1>Get To know Mac.</h1> <br><br>
+            </div>
+        </section>
+        <section id="gridfirst">
+            <div class="divgrid">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+            </div>
+        </section> <br><br><br><br><br> 
+        <section id="thirdsec">
+                
+
+        </section>
+
+
+    </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+              <div class="footertext">
+                <div>1. Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac models with 
+                    M1 and later, with Siri and device language set to English (Australia, Canada, Ireland, New Zealand, South Africa, UK or US), as part of an iOS 18, iPadOS 18 and macOS Sequoia software update.
+                     Additional features and Chinese (Simplified), English (India, Singapore), French, German, Italian, Japanese, Korean, Portuguese (Brazil) and Spanish language support will be available in early April, 
+                     with more languages coming over the course of the year, including Vietnamese. Some features may not be available in all regions or languages.
+                    <br><br>
+                    2. Available in two models: AirPods 4 and AirPods 4 with Active Noise Cancellation.
+                   <br><br> A subscription is required for Apple TV+.
+                   <br><br> Features are subject to change. Some features, applications and services may not be available in all regions or all languages.
+                </div>
+             </div>
+             <br><hr align="center">   <br> 
+            <div id="footclick">
+                <div>
+                    <ul>
+                        <li><b>Shop.&.Learn</b></li>                    <li><a href="">Store</a></li>
+                        <li><a href="">Mac</a></li>
+                        <li><a href="">ipad</a></li>
+                        <li><a href="">iphone</a></li>
+                        <li><a href="">Watch</a></li>
+                        <li><a href="">AirPods</a></li>
+                        <li><a href="">Tv&Home</a></li>
+                        <li><a href="">AirTag</a></li>
+                        <li><a href="">Accesories</a></li>
+                        <li><a href="">Gift Cards</a></li>
+                    </ul> 
+                    <ul>
+                        <li><b>Apple Wallet</b></li>
+                        <li><a href="">Wallet</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><b>Account</b></li>
+                        <li><a href="">Manage your Apple Account</a></li>
+                        <li><a href="">Apple Store Account</a></li>
+                        <li><a href="">iCloud.com</a></li>
+                    </ul>
+                    <ul>
+                        <li><b>Entertainment</b></li>
+                        <li><a href="">Apple One</a></li>
+                        <li><a href="">Apple TV+</a></li>
+                        <li><a href="">Apple Music</a></li>
+                        <li><a href="">Apple Arcade</a></li>
+                        <li><a href="">Apple Podcasts</a></li>
+                        <li><a href="">Apple Books</a></li>
+                        <li><a href="">App Store</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><b>Apple Store</b></li>
+                        <li><a href="">Find a Store</a></li>
+                        <li><a href="">Genius Bar</a></li>
+                        <li><a href="">Today at Apple</a></li>
+                        <li><a href="">Group Reservations</a></li>
+                        <li><a href="">Apple Camp</a></li>
+                        <li><a href="">Apple Trade In</a></li>
+                        <li><a href="">Ways to Buy</a></li>
+                        <li><a href="">Recycling Programme</a></li>
+                        <li><a href="">Order Status</a></li>
+                        <li><a href="">Shopping Help</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><b>For Business</b></li>
+                        <li><a href="">Apple and Business</a></li>
+                        <li><a href="">Shop for Business</a></li>
+                    </ul>
+                    <ul>
+                        <li><b>For Education</b></li>
+                        <li><a href="">Apple and Education</a></li>
+                        <li><a href="">Shop for Education</a></li>
+                        <li><a href="">Shop for University</a></li>
+                    </ul>
+                    <ul>
+                        <li><b>For Healthcare</b></li>
+                        <li><a href="">Apple in healthcare</a></li>
+                        <li><a href="">Mac in Healthcare</a></li>
+                        <li><a href="">Health on Apple Watch</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><b>Apple Values</b></li>
+                        <li><a href="">Accessibility</a></li>
+                        <li><a href="">Environment</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Supply Chain</a></li>
+                    </ul>
+                    <ul>
+                        <li><b>About Apple</b></li>
+                        <li><a href="">Newsroom</a></li>
+                        <li><a href="">Apple Leadership</a></li>
+                        <li><a href="">Career Opportunites</a></li>
+                        <li><a href="">Investors</a></li>
+                        <li><a href="">Ethics  and Compliance</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Contact Apple</a></li>
+                    </ul>
+                </div>  
+            </div>
+            <div class="footerbottom">
+                <div>
+                    <p>Copyright &copy;2025 Apple Inc. All rights reserved.</p>
+                </div>
+                <div class="bottompart">
+                    <a href="">Privacy Policy </a>|
+                    <a href="">Terms of Use </a>|
+                    <a href="">Sales Policy </a>|
+                    <a href="">Legal </a>|
+                    <a href="">Site Map </a>
+                </div>
+                <div>
+                    <p>@ India</p>
+                </div>  <br><br><br><br>
+            </div>        
+        </div>
+     </footer>
+        <!-- Footer part is End here -->
+</body>
+</html>

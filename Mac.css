@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#MacMain{
+    margin-top: 5%;
+    width: 100%;
+}
+#MacMain div{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#macview{
+    width: 90%;
+    padding-left: 15%;
+}
+#macview .viewmac{
+    display: grid;
+    grid-template-columns: repeat(7,120px);
+    gap: 20px;
+    height: 120px;
+    /* overflow-x: scroll; */
+    scrollbar-width: none;
+}
+
+.viewmac div{
+    height: 110px;
+    /* border: 1px solid black; */
+    text-align:center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:cursive;
+    margin: 1%;
+    color: black;
+    box-shadow: 4px 4px 10px 1px rgb(71, 68, 68);
+   border-radius: 10px;
+    padding-top: 75%;
+}
+#TopMac{
+    padding-left: 2%;
+}
+#TopMac #Mtext{
+    font-size: 50px;
+    font-weight: bold;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 10%;
+    text-shadow: 8px 8px 10px rgb(61, 60, 60);
+    color: rgb(82, 78, 78);
+}
+#TopMac #Mtext .text2 p{
+    margin-top: 10%;
+    font-size: 30px;
+      text-shadow: none;
+}
+#TopMac #Mtext p{
+    color: black;
+}
+   /* Video Css is Apple and start From here */
+.Macvideo video{
+    width: 98%;
+    display: flex;
+    border-radius: 15px;
+}
+/* .Macvideo::before ,.Macvideo::after{
+    content: '';
+    position: absolute;
+    left: 1%;
+    top: 37%;
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(45deg , #e6fb04 ,#ff6600, #00ff66 ,#00ffff,
+    #ff00ff ,#ff0099 ,#6e0dd0 ,#ff3300 ,#099fff);
+    background-size: 400%;
+    margin-top: 55px;
+    width: 97%;
+    margin: .5%;
+    height:107%;
+    z-index: -2;
+    animation: animac 20s linear infinite;
+}*/
+
+@keyframes animac{
+    0% {
+        background-position: 0 0;
+        /* position: absolute; */
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+/*
+.Macvideo::after{
+    filter: blur(40px);
+    opacity: 3px;
+}  */
+
+ /* Second text Css Is start here */
+#TopMac .Sectext{
+    padding-left: 4%;
+  font-size: 45px;
+  text-shadow: 8px 8px 10px rgb(61, 60, 60);
+}
+
+  /* First grid is start from here */
+#gridfirst{
+    width: 96%;
+    padding-left: 7%;
+}
+#gridfirst .divgrid{
+    display: grid;
+    grid-template-columns: repeat(7,380px);
+    gap: 40px;
+    height: 650px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.divgrid div{
+   height: 630px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+}
+.divgrid div:hover{
+    transform: scale(1.010);
+
+}
