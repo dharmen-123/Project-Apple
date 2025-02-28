@@ -65,7 +65,38 @@
 }
 .essimg1{
     background-image: url(Ipad/applepencil.jpg);
+    text-align: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 4%;
+}
+
+.essimg1 a ,.essimg2 a{
+    text-decoration: none;
+    color: blue;
 }
 .essimg2{
-    background-image: url(Ipad/ipadkeyboard.jpg);
+    background-image: url(Ipad/keyboradipad.jpeg);
+    text-align: center;
+    /* padding-top: 79%; */
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#gridfirst{
+    width: 96%;
+    padding-left: 7%;
+}
+#gridfirst .divgrid{
+    display: grid;
+    grid-template-columns: repeat(7,380px);
+    gap: 40px;
+    height: 780px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.divgrid div{
+   height: 760px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
 }
