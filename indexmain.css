@@ -267,7 +267,6 @@
 }
 #grid .container{
     width: 100%;
-
     display: grid;
     gap: 8px;
     /* grid-template-columns: repeat(auto-fill,500px); */
@@ -276,7 +275,6 @@
 
 }
 #grid .container div{
-    /* background-image: url(images/applewatch1.png); */
     height: 600px;
    cursor: pointer;
     background-repeat: no-repeat;

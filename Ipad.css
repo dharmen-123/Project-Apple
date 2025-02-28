@@ -37,3 +37,35 @@
    border-radius: 10px;
     /* padding-top: 75%; */
 }
+#Ipad2part div video{
+    margin-left: 5%;
+     width: 80%;
+     /* height: 50vh; */
+     border-radius: 15px;
+    }
+#essentials .itext{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 3%;
+    font-family:cursive;
+}
+#essentials .essimg{
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    padding: 2%;
+    /* grid-template-columns: repeat(auto-fill,500px); */
+    grid-template-columns: repeat(auto-fit, minmax(30em ,1fr));
+}
+#essentials .essimg div{
+    height: 700px;
+    border: 1px solid black;
+    box-shadow:2px 2px 20px .5px rgb(71, 68, 68);
+    border-radius: 20px;
+}
+.essimg1{
+    background-image: url(Ipad/applepencil.jpg);
+}
+.essimg2{
+    background-image: url(Ipad/ipadkeyboard.jpg);
+}
