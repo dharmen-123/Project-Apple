@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #IpadMain{
-    padding-top: 5%;
+    padding-top: 7%;
      width: 100%;
  }
  #IpadMain div{
@@ -39,7 +39,7 @@
 }
 #Ipad2part div video{
     margin-left: 5%;
-     width: 80%;
+     width: 90%;
      /* height: 50vh; */
      border-radius: 15px;
     }
