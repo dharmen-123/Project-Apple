@@ -82,11 +82,11 @@
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#gridfirst{
+#Exploregrid{
     width: 96%;
     padding-left: 7%;
 }
-#gridfirst .divgrid{
+#Exploregrid .ipadgrid{
     display: grid;
     grid-template-columns: repeat(7,380px);
     gap: 40px;
@@ -94,9 +94,9 @@
     overflow-x: scroll;
     scrollbar-width: none;
 }
-.divgrid div{
+.ipadgrid div{
    height: 760px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     border-radius: 20px;
     box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
 }
