@@ -165,8 +165,6 @@
 }
 .headtext h1{
     font-size: 50px;
-    padding-top: 4%;
-
 }
 .headtext p{
     font-size: 30px;
@@ -202,43 +200,6 @@
     color:rgb(3, 156, 251) ;
     background: transparent;
 }
-#animation{
-    padding-left: 1%;
-}
-#animation div{
-    width: 150px;
-    height: 20px;
-    border-radius: 10px;
-    border: 1px solid black;
-    /* padding-left:2%; */
-    animation: move 4s ease infinite;
-}
-@keyframes move{
-    0%{
-        background-color: #ff00ff;
-        transform: translateX(100px);
-    }
-    25%{
-        background-color: #ff3300;
-        transform: translateX(300px);
-
-    }
-    50%{
-        background-color: #00ff00;
-        transform: translateX(800px);
-
-    }
-    75%{
-        background-color: #e6fb04;
-        transform: translateX(1000px);
-
-    }
-    100%{
-        background-color: #00ffff;
-        transform: translateX(1300px);
-
-    }
-}
 .secondpage div{
     width: 99%;
     height: 91vh;
@@ -248,15 +209,52 @@
     background-size: cover;
     background-position: center;
 }
-.iphone16e{
-    background-image: url(images/iphone16enew.jpg);
-    /* border: 1px solid black; */
-    /* border-bottom: 1px solid grey; */
+.iphone16e img{
+    width: 100%;
+    height: 90vh;
+    /* z-index: -1; */
     text-align: center;
 }
+.mediaphone{
+    display: none;
+}
+@media (max-width:800px){
+    .iphone16e .phone16e{
+        display: none;
+    }
+    .iphone16e .mediaphone{
+        display: block;
+        /* height: 70vh; */
+    }
+    .headtext{
+        /* height: 75vh; */
+        background-image: none;
+        background-image: url(images/mediaiphone16pro.jpg);
+    }
+    #appletv .appletvfirst{
+        display: none;
+    }
+    #appletv .appletvsecond{
+        display: block;
+        height: 500px;
+    }
+    .headtext h1{
+        font-size: 30px;
+    }
+    .headtext p{
+        font-size: 20px;
+    }
+    .headtext #topbutton{
+        padding-top: 25%;
+    }
+
+}
 .secondpage #topbutton{
-   /* padding-top: 42%; */
+   top: 140%;
     letter-spacing: 30px;
+    text-align: center;
+    /* z-index: 200; */
+    position:absolute;
 }
 #grid h1{
     font-size: 50px;
@@ -268,14 +266,16 @@
 #grid .container{
     width: 100%;
     display: grid;
-    gap: 8px;
-    /* grid-template-columns: repeat(auto-fill,500px); */
-    grid-template-columns: repeat(auto-fit, minmax(30em ,1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,400px);
+    /* grid-template-columns: repeat(auto-fit, minmax(30em ,1fr)); */
     /* padding: 1rem; */
 
 }
 #grid .container div{
-    height: 600px;
+    height: 580px;
    cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,32 +284,55 @@
     border-radius: 10px;
     box-shadow: 4px 4px 4px 2px rgb(100, 99, 99);
 }
-.container div:hover{
-    /* transform: scale(.9); */
-}
+/* .container div:hover{
+    transform: scale(.9);
+} */
 .gridimg1{
     background-image: url(images/applewatch1.png);
+    text-align: center;
+}
+.gridimg1 h2 ,.gridimg3 h2,.gridimg6 h2{
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+}
+.gridimg2 h2 ,.gridimg4 h2 ,.gridimg5 h2{
+    font-size: 35px;
+    color: white;
+    font-style:italic;
+}
+.gridimg2 p{
+    font-size: 25px;
+    color: #08caf5;
 }
 .gridimg2{
     background-image: url(images/ipad.png.jpg);
+    text-align: center;
 }
 .gridimg3{
     background-image: url(images/macfolddouble.jpg);
+    text-align: center;
 }
 .gridimg4{
     background-image: url(images/appleairpods.jpg);
+    text-align: center;
 }
 .gridimg5{
     background-image: url(images/iphone15pro.jpeg.jpg);
+    text-align: center;
 }
 .gridimg6{
     background-image: url(images/Apple\ PC.jpg);
+    text-align: center;
 }
 
 #appletv img{
     width: 100%;
     height: 100vh;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
+}
+#appletv .appletvfirst{
+    display: none;
 }
 #appletv h1{
     font-size: 50px;

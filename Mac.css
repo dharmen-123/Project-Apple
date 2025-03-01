@@ -11,7 +11,6 @@
     #MacMain{
         padding-top: 12%;
     }
-
 }
 #MacMain div{
     background-position: center;
@@ -82,7 +81,6 @@
     color: rgb(14, 13, 13);
 }
 #TopMac #Mtext .text2 p{
-    /* margin-top: 10%; */
     font-size: 30px;
       text-shadow: none;
       color: black;
@@ -139,17 +137,15 @@
     justify-content: center;
 }
 .hello h1{
-    font-size: 200px;
+    font-size: 110px;
     text-align: center;
-    /* font-family: "Playwrite IT Moderna", serif; */
     font-family: "Dancing Script", serif;
     font-weight: bold;
-    /* width: 40%; */
-    animation: hel 10s ease-in-out  infinite,type 5s ease infinite;;
+    animation: hel 10s ease-in-out  infinite;
+    /* ,type 5s ease infinite;; */
     overflow: hidden;
     /* border-right:5px solid green; */
     white-space:nowrap;
-    /* padding-left: 15%; */
 }
 @keyframes hel{
     0%{

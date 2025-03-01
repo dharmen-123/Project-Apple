@@ -59,7 +59,7 @@
     padding-top: 90%;
 }
 .storeimage div:hover{
-   transform: scale(.5);
+   /* transform: scale(.5); */
 
 }
 .Simg1{
@@ -141,7 +141,7 @@
 }
 #Latest #helpoption{
     display: grid;
-    grid-template-columns: repeat(4,500px);
+    grid-template-columns: repeat(4,450px);
     gap: 40px;
     height: 460px;
     overflow-x: scroll;
@@ -166,4 +166,40 @@
 }
 .help4{
     background-image: url(latest/helpus1.jpg_large);
+}
+#storetext{
+    width: 98%;
+    padding-left: 6%;
+}
+#storetext .diffcontain{
+    display: grid;
+    grid-template-columns: repeat(6,350px);
+    gap: 40px;
+    height: 340px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.diffcontain div{
+    height: 280px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px 2px  grey;
+}
+.diffimg1{
+    background-image: url(store/storediff2.png);
+}
+.diffimg2{
+    background-image: url(store/storediff6.png);
+}
+.diffimg3{
+    background-image: url(store/storediff4.png);
+}
+.diffimg4{
+    background-image: url(store/storediff3.png);
+}
+.diffimg5{
+    background-image: url(store/storediff1.png);
+}
+.diffimg6{
+    background-image: url(store/storediff5.png);
 }
