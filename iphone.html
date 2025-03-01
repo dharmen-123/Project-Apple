@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Pro</title>
+    <link rel="stylesheet" href="indexmain.css">
+    <link rel="stylesheet" href="Store.css">
+    <link rel="shortcut icon" href="images/applelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="Mac.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header part is start from here  -->
+    <header>
+       <div id="Topbar">
+          <div class="navbar" >
+              <div class="logo">
+                  <a href="indexmain.html "><img src="images/applelogo.png" alt=""></a>
+              </div>
+              <nav>
+                 <ul class="links">
+                    <li><a href="Store.html">Store</a></li>
+                    <li><a href="Mac.html">Mac</a></li>
+                    <li><a href="Ipad.html">ipad</a></li>
+                    <li><a href="">iphone</a></li>
+                    <li><a href="">Watches</a></li>
+                    <li><a href="">Airpods</a></li>
+                    <li><a href="">Television</a></li>
+                    <li><a href="">Entertainment</a></li>
+                    <li><a href="">Accesories</a></li>
+                    <li><a href="">Support</a></li>
+                 </ul>
+              </nav>
+              <div id="iconbutton">
+              <div class="icon" >
+                  <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="icon" >
+                  <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+              <div class="barbutton">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="dropdownmenu">
+             <ul>
+                <li><a href="Store.html">* Store</a></li>
+                <li><a href="Mac.html">* Mac</a></li>
+                <li><a href="Ipad.html">* ipad</a></li>
+                <li><a href="">* iphone</a></li>
+                <li><a href="">* Watches</a></li>
+                <li><a href="">* Airpods</a></li>
+                <li><a href="">* Television</a></li>
+                <li><a href="">* Entertainment</a></li>
+                <li><a href="">* Accesories</a></li>
+                <li><a href="">* Support</a></li>
+                <li><a href="">* LOGIN</a></li>
+             </ul>
+          </div>
+        </div>
+    </header>
+    <script>
+        const button = document.querySelector('.barbutton')
+        const buttonicon = document.querySelector('.barbutton i')
+        const dropmenu = document.querySelector('.dropdownmenu')
+
+        button.onclick = function(){
+            dropmenu.classList.toggle('open')
+            const isOpen =dropmenu.classList.contains('open')
+
+            buttonicon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+    <!-- HEADER part and top navbr part is End -->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</b>
+            <select name="" id="">
+                <option value="">Shop & Learn</option>
+                <option value=""><a href="">Mac</a></option>
+                <option value=""><a href="">ipad</a></option>
+                <option value=""><a href="">iphone</a></option>
+                <option value=""><a href="">Watch</a></option>
+                <option value=""><a href="">Airpods</a></option>
+                <option value=""><a href="">TV&Home</a></option>
+                <option value=""><a href="">AirTag</a></option>
+                <option value=""><a href="">Accesories</a></option>
+                <option value=""><a href="">Gifts Cards</a></option>
+            </select>
+            <select name="" id="">
+                <option value="">Apple Wallet</option>
+                <option value=""> Wallet</option>
+            </select>
+            <select name="" id="">
+                <option value="">Account</option>
+                <option value="">Apple Store Account</option>
+                <option value="">iCloud.com</option>
+            </select>
+            <select name="" id="">
+                <option value="">Entertainment</option>
+                <option value="">Apple One</option>
+                <option value="">Apple TV+</option>
+                <option value="">Apple Music</option>
+                <option value="">Apple Arcade</option>
+                <option value="">Apple Podcasts</option>
+                <option value="">Apple Books</option>
+                <option value="">App Store</option>
+            </select>
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+</body>
+</html>
