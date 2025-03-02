@@ -209,25 +209,21 @@
     background-size: cover;
     background-position: center;
 }
-.iphone16e img{
+.iphone16e{
     width: 100%;
     height: 90vh;
-    /* z-index: -1; */
+    background-image: url(images/iphone16enew.jpg);
     text-align: center;
 }
-.mediaphone{
+/* .mediaphone{
     display: none;
-}
-@media (max-width:800px){
-    .iphone16e .phone16e{
-        display: none;
-    }
-    .iphone16e .mediaphone{
-        display: block;
-        /* height: 70vh; */
+} */
+@media (max-width:820px){
+    .iphone16e{
+        background-image: none;
+        background-image: url(images/mediaiphone16e.jpg);
     }
     .headtext{
-        /* height: 75vh; */
         background-image: none;
         background-image: url(images/mediaiphone16pro.jpg);
     }
@@ -245,16 +241,25 @@
         font-size: 20px;
     }
     .headtext #topbutton{
-        padding-top: 25%;
+        padding-top: 20%;
+    }
+    .secondpage .iphone16e #topbutton{
+        padding-top: 47% !important;
     }
 
 }
-.secondpage #topbutton{
-   top: 140%;
+@media (max-width:600px){
+    .secondpage .iphone16e #topbutton{
+        padding-top: 60% !important;
+    }
+    .headtext #topbutton{
+        padding-top: 45%;
+    }
+}
+.secondpage .iphone16e #topbutton{
+   padding-top: 42%;
     letter-spacing: 30px;
     text-align: center;
-    /* z-index: 200; */
-    position:absolute;
 }
 #brands h1{
     font-size: 50px;
@@ -269,35 +274,78 @@
 #grid .container{
     display: grid;
     grid-template-columns: repeat(auto-fit ,minmax(30em ,1fr));
-    gap:10px;
-    margin: 1%;
+    gap:15px;
+    /* margin: 1%; */
 }
 #grid .container div{
     /* width: 500px; */
     height: 580px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-shadow: 1px 1px 10px 1px rgb(161, 161, 162);
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
+@media (max-width:600px){
+    #grid .container{
+        display: grid;
+        justify-content: center;
+        /* align-items: center; */
+        grid-template-columns: repeat(auto-fit,400px)!important;
+        gap: 10px;
+        margin: 1%;
+    }
+    #gridimg div button{
+        margin-top: 23%;
+    }
+    .gridimg4 div h2,.gridimg5 div h2,.gridimg6 div h2{
+        padding-bottom: 40%;
+    }
+}
+@media(min-width:610px)and (max-width:820px){
+    .gridimg4 div h2,.gridimg5 div h2,.gridimg6 div h2{
+        padding-bottom: 30% !important;
+    }
+}
+@media (min-width:820px)and(max-width:1279px){
+    .secondpage .iphone16e #topbutton{
+        padding-top: 47% !important;
+    }
+    .gridimg1 div p ,.gridimg2 div p ,.gridimg3 div p{
+        padding-bottom: 90% !important;
+    }
+    .gridimg4 div h2,.gridimg5 div h2,.gridimg6 div h2{
+        padding-bottom: 70%;
+    }
+}
+.gridimg1 div p ,.gridimg2 div p ,.gridimg3 div p{
+    padding-bottom: 90%;
+}
+.gridimg4 div h2,.gridimg5 div h2,.gridimg6 div h2{
+    padding-bottom: 65%;
+}
+.gridimg4 div p,.gridimg5 div p,.gridimg6 div p{
+    padding-bottom: 25%;
+}
+#gridimg button{
+     margin-left: 4%;
+}
 .gridimg1{
     background-image: url(images/applewatch1.png);
     text-align: center;
 }
-.gridimg1 div h2{
-    padding-bottom: 100%;
+#gridimg p{
+    font-size: 20px;
+    color: #f69205f7;
+    font-weight: bold;
 }
-.gridimg1 h2 ,.gridimg3 h2,.gridimg6 h2 ,.gridimg2 h2 ,.gridimg4 h2 ,.gridimg5 h2{
+.gridimg1 h2 ,.gridimg3 h2,.gridimg6 h2 ,.gridimg2 h2 ,.gridimg4 h2 {
     font-size: 30px;
     color: black;
     font-style: italic;
 }
-.gridimg2 h2 ,.gridimg4 h2 ,.gridimg5 h2{
+.gridimg5 h2{
     font-size: 35px;
     color: white;
     font-style:italic;
