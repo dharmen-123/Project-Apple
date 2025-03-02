@@ -6,12 +6,7 @@
 #IpadMain{
      width: 100%;
  }
- 
- #IpadMain div{
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
+
 #ipadview{
     width: 100%;
     padding-left: 15%;
@@ -63,12 +58,14 @@
 }
 .viewipad div{
     height: 100px;
-    box-shadow: 2px 2px 10px .5px rgb(71, 68, 68);
+    /* box-shadow: 1px 1px 10px .01px rgb(71, 68, 68); */
    border-radius: 10px;
-   cursor: pointer;
+   background-position: center;
+   background-size:cover;
+   background-repeat: no-repeat;
+   /* cursor: pointer; */
    transform:rotateY(360deg);
  transition-duration: 5s;
-    /* padding-top: 75%; */
 }
 #Ipad2part div video{
     margin-left: 3%;
@@ -98,7 +95,66 @@
     .essimg2{
         padding-top: 140% !important;
     }
+    #essentials .itext{
+        font-size: 25px !important;
+        font-family: 'Courier New', Courier, monospace !important;
+        letter-spacing: -3px !important;
+    }
+    .ipadgrid div{
+        /* height: 400px; */
+
+
+    }
 }
+#Exploregrid{
+    width: 100%;
+    padding-left: 3%;
+}
+#Exploregrid h1{
+    font-size: 50px;
+}
+#Exploregrid .ipadgrid{
+    display: grid;
+    grid-template-columns: repeat(6,380px);
+    gap: 40px;
+    height: 600px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.ipadgrid div{
+   height: 580px;
+   background-repeat: no-repeat;
+   background-size: 100% 60%;
+   text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+   font-size: 40px;
+   padding-top: 80%;
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+}
+.ipads4 h3 ,.ipads1 h3 ,.ipads2 h3 ,.ipads3 h3,.ipads5 h3,.ipads6 h3{
+    font-size: 20px;
+   }
+
+.ipads1{
+    background-image: url(Ipad/ipadicon7.png);
+}
+.ipads2{
+    background-image: url(Ipad/ipadicon8.png);
+}
+.ipads3{
+    background-image: url(Ipad/ipadicon6.png);
+}
+.ipads4{
+    background-image: url(Ipad/ipadicon4.png);
+}
+.ipads5{
+    background-image: url(Ipad/ipadicon10.png);
+}
+.ipads6{
+    background-image: url(Ipad/ipadicon3.png);
+}
+
 #essentials .itext{
     font-size: 40px;
     font-weight: bold;
@@ -116,6 +172,9 @@
 }
 #essentials .essimg div{
     height: 700px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     /* border: 1px solid black; */
     box-shadow:2px 2px 20px .5px rgb(71, 68, 68);
     border-radius: 20px;
@@ -139,24 +198,4 @@
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#Exploregrid{
-    width: 96%;
-    padding-left: 5%;
-}
-#Exploregrid h1{
-    font-size: 50px;
-}
-#Exploregrid .ipadgrid{
-    display: grid;
-    grid-template-columns: repeat(7,380px);
-    gap: 40px;
-    height: 600px;
-    overflow-x: scroll;
-    scrollbar-width: none;
-}
-.ipadgrid div{
-   height: 580px;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
-}
+
