@@ -70,7 +70,7 @@
   .dropdownmenu{
        position:relative;
        display: none;
-      top: 54px;
+      top: 50px;
       height: 0px;
       width: 500px;
       background: rgb(206, 205, 205);
@@ -110,7 +110,7 @@
     display: block;
     width: 830px;
     position:fixed;
-    top: 7%;
+    top: 5%;
 }
 }
   /* DROPDOWNMENU is End  here */
@@ -256,42 +256,43 @@
     /* z-index: 200; */
     position:absolute;
 }
-#grid h1{
+#brands h1{
     font-size: 50px;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 7px 8px 6px gray;
     color: rgb(238, 34, 15);
 }
-#grid .container{
+#grid{
     width: 100%;
+}
+#grid .container{
     display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    grid-template-columns: repeat(auto-fit,400px);
-    /* grid-template-columns: repeat(auto-fit, minmax(30em ,1fr)); */
-    /* padding: 1rem; */
-
+    grid-template-columns: repeat(auto-fit ,minmax(30em ,1fr));
+    gap:10px;
+    margin: 1%;
 }
 #grid .container div{
+    /* width: 500px; */
     height: 580px;
-   cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 1px rgb(161, 161, 162);
+    border-radius: 10px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    border: 2px solid rgb(199, 193, 193);
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px 2px rgb(100, 99, 99);
 }
-/* .container div:hover{
-    transform: scale(.9);
-} */
+
+
+
 .gridimg1{
     background-image: url(images/applewatch1.png);
     text-align: center;
 }
-.gridimg1 h2 ,.gridimg3 h2,.gridimg6 h2{
+.gridimg1 div h2{
+    padding-bottom: 100%;
+}
+.gridimg1 h2 ,.gridimg3 h2,.gridimg6 h2 ,.gridimg2 h2 ,.gridimg4 h2 ,.gridimg5 h2{
     font-size: 30px;
     color: black;
     font-style: italic;
@@ -306,11 +307,11 @@
     color: #08caf5;
 }
 .gridimg2{
-    background-image: url(images/ipad.png.jpg);
+    background-image: url(images/hpmeipad.png);
     text-align: center;
 }
 .gridimg3{
-    background-image: url(images/macfolddouble.jpg);
+    background-image: url(images/HomeMacbook.png);
     text-align: center;
 }
 .gridimg4{
@@ -318,7 +319,7 @@
     text-align: center;
 }
 .gridimg5{
-    background-image: url(images/iphone15pro.jpeg.jpg);
+    background-image: url(images/homeiphone.png);
     text-align: center;
 }
 .gridimg6{
