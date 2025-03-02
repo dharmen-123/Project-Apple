@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#mainwatch{
+     margin-top: 6%;
+}
+#watchview .viewwatch{
+    display: grid;
+    grid-template-columns: repeat(8,110px);
+    gap: 20px;
+    height: 110px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.viewwatch div{
+    height: 100px;
+    box-shadow: 1px 1px 10px .01px rgb(71, 68, 68);
+   border-radius: 10px;
+   background-position: center;
+   background-size:cover;
+   background-repeat: no-repeat;
+
+}
+#TopMac #Mtext{
+    text-shadow: none;
+}
+#TopMac #Mtext .text2 p{
+    animation: hel 10s ease-out  infinite;
+ }
+
+ #watchmain div video{
+    margin-left: 3%;
+     width: 95%;
+     border-radius: 15px;
+    }
+
+@media (max-width:600px){
+    #TopMac #Mtext{
+        font-size: 30px;
+    }
+    #mainwatch{
+        margin-top: 13%;
+   }
+   #watchview{
+    padding-top: 10% !important;
+   }
+   .goldwatch div h2{
+    font-size: 30px !important;
+   }
+   .goldwatch div p{
+    font-size: 13px !important;
+   }
+   .goldwatch div{
+    width: 95% !important;
+    height: 300px !important;
+    padding-top: 42% !important;
+   }
+}
+
+
+.goldwatch {
+    /* width: 100%; */
+    display: flex;
+    /* padding-left:8%; */
+    justify-content: center;
+}
+.goldwatch div{
+    background-image: url(watch/watchmain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    color: white;
+   padding-left: 2%;
+   padding-top: 10%;
+    height: 600px;
+    border-radius: 15px;
+}
+.goldwatch div h2{
+    font-size: 40px;
+}
+.goldwatch div p{
+    font-size: 20px;
+}
+.goldwatch div:hover{
+    transform: scale(1.01);
+}
