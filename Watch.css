@@ -6,6 +6,9 @@
 #mainwatch{
      margin-top: 6%;
 }
+#watchview {
+    padding-left: 10%;
+}
 #watchview .viewwatch{
     display: grid;
     grid-template-columns: repeat(8,110px);
@@ -41,11 +44,11 @@
         font-size: 30px;
     }
     #mainwatch{
-        margin-top: 13%;
+        padding-top: 13% !important;
    }
    #watchview{
-    padding-top: 10% !important;
-   }
+       padding-left: 1%;
+}
    .goldwatch div h2{
     font-size: 30px !important;
    }

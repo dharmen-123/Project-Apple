@@ -237,6 +237,28 @@
     font-size: 20px;
     transform: scale(1.070);
 }
+#MacMain #Exploregrid{
+    padding-left: 4%;
+}
+#Exploregrid .macgrid{
+    display: grid;
+    grid-template-columns: repeat(6,400px);
+    gap: 40px;
+    height: 720px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.macgrid div{
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: 100% 60%;
+   text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+   font-size: 40px;
+   padding-top: 80%;
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+}
 #lastvideo div img{
     margin-left: 2%;
     width:95%;
