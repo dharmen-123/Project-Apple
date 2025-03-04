@@ -7,7 +7,7 @@
      margin-top: 6%;
 }
 #watchview {
-    padding-left: 10%;
+    padding-left: 15%;
 }
 #watchview .viewwatch{
     display: grid;
@@ -24,7 +24,33 @@
    background-position: center;
    background-size:cover;
    background-repeat: no-repeat;
+  animation: flip 3.5s ease-in 1 ;
 
+}
+
+.watchicon1{
+    background-image: url(watch/watchicon1.png);
+}
+.watchicon2{
+    background-image: url(watch/watchicon2.png);
+}
+.watchicon3{
+    background-image: url(watch/watchicon3.png);
+}
+.watchicon4{
+    background-image: url(watch/watchicon4.png);
+}
+.watchicon5{
+    background-image: url(watch/watchicon5.png);
+}
+.watchicon6{
+    background-image: url(watch/watchicon6.png);
+}
+.watchicon7{
+    background-image: url(watch/watchicon7.png);
+}
+.watchicon8{
+    background-image: url(watch/watchicon8.png);
 }
 #TopMac #Mtext{
     text-shadow: none;

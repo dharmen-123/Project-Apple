@@ -63,9 +63,12 @@
    background-position: center;
    background-size:cover;
    background-repeat: no-repeat;
-   /* cursor: pointer; */
-   transform:rotateY(360deg);
- transition-duration: 5s;
+   animation: flip 3s ease-in 1 ;
+}
+@keyframes flip{
+      from{transform: rotateY(0deg);}
+      to{transform: rotateY(360deg);
+      } 
 }
 #Ipad2part div video{
     margin-left: 3%;
@@ -123,7 +126,7 @@
 .ipadgrid div{
    height: 580px;
    background-repeat: no-repeat;
-   background-size: 100% 60%;
+   background-size: 95% 60%;
    text-align: center;
     border: 1px solid black;
     border-radius: 20px;
