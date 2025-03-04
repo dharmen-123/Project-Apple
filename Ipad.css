@@ -63,7 +63,10 @@
    background-position: center;
    background-size:cover;
    background-repeat: no-repeat;
-   animation: flip 3s ease-in 1 ;
+   /* animation: flip 3s ease-in 1 ; */
+}
+.viewipad div:hover{
+    transform: scale(1.090);
 }
 @keyframes flip{
       from{transform: rotateY(0deg);}
@@ -84,6 +87,7 @@
         grid-template-columns: repeat(auto-fit,400px)!important;
         gap: 20px;
         margin: 1%;
+        padding: 2%;
     }
     #essentials .essimg div{
         height: 400x;
@@ -102,11 +106,24 @@
         font-family: 'Courier New', Courier, monospace !important;
         letter-spacing: -3px !important;
     }
+    #Exploregrid .ipadgrid{
+        display: grid;
+        grid-template-columns: repeat(6,350px) !important;
+        gap: 25px !important;
+    }
     .ipadgrid div{
-        /* height: 400px; */
-
+        font-size: 25px !important;
+   padding-top: 90% !important;
+    }
+    .ipadgrid div p{
+        padding: 6%;
 
     }
+.ipads4 h3 ,.ipads1 h3 ,.ipads2 h3 ,.ipads3 h3,.ipads5 h3,.ipads6 h3{
+    font-size: 15px !important;
+    padding-bottom: 10%;
+   }
+
 }
 #Exploregrid{
     width: 100%;
@@ -128,11 +145,16 @@
    background-repeat: no-repeat;
    background-size: 95% 60%;
    text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
-   font-size: 40px;
+   font-size: 35px;
    padding-top: 80%;
+}
+.ipadgrid div:hover{
+    transform: scale(1.0090);
     box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+
+
 }
 .ipads4 h3 ,.ipads1 h3 ,.ipads2 h3 ,.ipads3 h3,.ipads5 h3,.ipads6 h3{
     font-size: 20px;
@@ -180,6 +202,11 @@
     /* border: 1px solid black; */
     box-shadow:2px 2px 20px .5px rgb(71, 68, 68);
     border-radius: 20px;
+}
+#essentials .essimg div:hover{
+    transform: scale(1.0090);
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+
 }
 .essimg1{
     background-image: url(Ipad/applepencil.jpg);

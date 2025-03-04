@@ -243,6 +243,28 @@
 #MacMain #laptop , #display{
     padding-left: 4%;
 }
+@media(max-width:600px){
+    #laptop .macgrid{
+        display: grid;
+        grid-template-columns: repeat(6,350px)  !important;
+        gap: 40px;
+        height: 700px;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+    .macgrid div{
+        height: 610px !important;
+        font-size: 25px !important;
+        padding-top: 70%;
+     }
+     #display .newdisplay{
+        display: grid;
+        grid-template-columns: repeat(6,350px)  !important;
+        gap: 20px !important;
+        overflow-y: scroll !important;
+
+     }
+}
 #laptop .macgrid{
     display: grid;
     grid-template-columns: repeat(6,400px);
@@ -256,19 +278,22 @@
    background-repeat: no-repeat;
    background-position:top;
    text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
    font-size: 30px;
    padding-top: 70%;
-    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
 }
 .macgrid div p{
     font-size: 20px;
     text-align: center;
 }
+.macgrid div:hover{
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+  transform:scale(1.0090);
+}
 .macimg1{
     background-image: url(macimg/macbook\ m3.jpg);
-    background-size:  95% 40%  ;
+    background-size:  90% 35%  ;
 
 }
 .macimg2{
@@ -291,16 +316,34 @@
 }
 .newdisplay div{
     height: 580px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
+    text-align: center;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:top;
+    background-size: 100% 50%;
+    padding-top: 80%;
 
 }
 
+.newdisplay div:hover{
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+  transform:scale(1.0090);
+}
+.newdisplay div p{
+    font-size: 25px;
+    text-align: center;
+    /* font-weight: bold; */
+    padding-bottom: 10%;
+}
 .dimg1{
-    background-image: url(macimg/);
-    background-size: 100% 50%;
+    background-image: url(macimg/desktop\ imac1.png);
+}
+.dimg2{
+    background-image: url(macimg/Desktop\ imac\ 2.png);
+}
+.dimg3{
+    background-image: url(macimg/desktop\ imac3.png);
 }
 #lastvideo div img{
     margin-left: 2%;

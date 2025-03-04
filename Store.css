@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 /* main{
     background-color: antiquewhite;
@@ -56,6 +57,7 @@
     font-size: 20px;
     font-weight: bold;
     margin: 1%;
+    color: black;
     padding-top: 90%;
 }
 .storeimage div:hover{
@@ -149,11 +151,13 @@
 }
 #helpoption div{
     height: 450px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
-    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);  
+    /* box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);   */
 }
 #helpoption div:hover{
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+    transform:scale(1.0010);
 }
 .help1{
     background-image: url(latest/helpus3.webp);
@@ -183,7 +187,24 @@
     height: 280px;
     /* border: 1px solid black; */
     border-radius: 10px;
+    /* box-shadow: 3px 3px 15px 2px  grey; */
+}
+@media(max-width:600px){
+    .diffcontain div{
+    border: 1px solid black;
     box-shadow: 3px 3px 15px 2px  grey;
+    }
+    #Latest #helpoption{
+        grid-template-columns: repeat(4,350px);
+
+    }
+    #helpoption div{
+        height: 400px;
+    }
+}
+.diffcontain div:hover{
+    box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
+    transform:scale(1.0090);
 }
 .diffimg1{
     background-image: url(store/storediff2.png);
