@@ -4,81 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign in</title>
     <link rel="stylesheet" href="indexmain.css">
     <link rel="shortcut icon" href="images/applelogo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="LOGIN.CSS">
+     <link rel="stylesheet" href="signin.css">
 </head>
-
 <body>
-    <!-- header part is start from here  -->
-    <header>
-        <div id="Topbar">
-           <div class="navbar">
-               <div class="logo">
-                   <a href="indexmain.html "><img src="images/applelogo.png" alt=""></a>
-               </div>
-               <nav>
-                  <ul class="links">
-                     <li><a href="Store.html">Store</a></li>
-                     <li><a href="Mac.html">Mac</a></li>
-                     <li><a href="Ipad.html">ipad</a></li>
-                     <li><a href="iphone.html">iphone</a></li>
-                     <li><a href="Watch.html">Watches</a></li>
-                     <li><a href="">Airpods</a></li>
-                     <li><a href="#appletv">Television</a></li>
-                     <li><a href="">Entertainment</a></li>
-                     <li><a href="">Accesories</a></li>
-                     <li><a href="">login</a></li>
-                  </ul>
-               </nav>
-               <div id="iconbutton">
-               <div class="icon" >
-                   <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-               </div>
-               <div class="icon" >
-                   <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-               </div>
-               <div class="barbutton">
-                   <i class="fa-solid fa-bars"></i>
-               </div>
-             </div>
-           </div>
-           <div class="dropdownmenu">
-              <ul>
-                 <li><a href="Store.html">* Store</a></li>
-                 <li><a href="Mac.html">* Mac</a></li>
-                 <li><a href="Ipad.html">* ipad</a></li>
-                 <li><a href="iphone.html">* iphone</a></li>
-                 <li><a href="Watch.html">* Watches</a></li>
-                 <li><a href="">* Airpods</a></li>
-                 <li><a href="">* Television</a></li>
-                 <li><a href="">* Entertainment</a></li>
-                 <li><a href="">* Accesories</a></li>
-                 <li><a href="">* Support</a></li>
-                 <li><a href="">* LOGIN</a></li>
-              </ul>
-           </div>
-         </div>
-     </header>
-     <script>
-         const button = document.querySelector('.barbutton')
-         const buttonicon = document.querySelector('.barbutton i')
-         const dropmenu = document.querySelector('.dropdownmenu')
- 
-         button.onclick = function(){
-             dropmenu.classList.toggle('open')
-             const isOpen =dropmenu.classList.contains('open')
- 
-             buttonicon.classList = isOpen
-             ? 'fa-solid fa-xmark'
-             : 'fa-solid fa-bars'
-         }
-    </script>
-     <!-- HEADER part and top navbr part is End -->
+
+  <main>
+    <div id="maindiv">
+           <div class="signdiv">
+            <div class="form">
+                <h1>Create account</h1><br><br><br>
+                <form action="" method="post">
+                    <label for="name"><i class="fa-solid fa-name"></i> Username</label><br>
+                    <input type="text" id="name" placeholder="Enter Your Name"><br>
+                    <label for="emailid"><i class="fa-solid fa-envelope"></i> Email</label><br>
+                     <input id="emailid" type="email" placeholder= "Email" required> <br>
+                    <label for="pass"><i class="fa-solid fa-lock"></i> Password</label><br>
+                     <input id="pass" type="password" placeholder=" password" required><br>
+                    <button type="submit">Sign in</button><br>
+                    <a href="">forget password ?</a> <br><br>
+                    <p>Don't Have an account <a href="login.html">log in</a></p>
+                </form>
+            </div>
+            <div class="space">
+                <img src="/images/applelogo.png" alt="">
+                <h1>Welcome to Apple</h1>
+            </div>
+           </div>    
+     
+    </div>
+  </main>
 
 </body>
 </html>
