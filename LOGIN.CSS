@@ -142,7 +142,6 @@ body{
     margin: 1%;
     width: 530px;
 
-    
 }
 .seconddiv .form:hover{
     border: 4px solid rgb(7, 193, 250);
@@ -177,7 +176,7 @@ body{
     }
 }
 
-.seconddiv .form form input ,.smallform form input{
+.seconddiv .form form input ,.smallform form input {
     width: 340px;
     height: 40px;
     font-size: 20px;
@@ -207,6 +206,10 @@ body{
     background-color: #09a1ffeb;
     color: white;
 }
+.seconddiv .form form button a,.smallform form button a{
+    color: white;
+    font-size: 30px;
+}
 a{
     text-decoration: none;
     font-size: 20px;
@@ -214,7 +217,7 @@ a{
     color: #8f16fa;
 }
 .seconddiv .form form p ,.smallform form p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
 }

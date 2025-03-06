@@ -2,46 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in</title>
-    <link rel="stylesheet" href="indexmain.css">
-    <link rel="shortcut icon" href="images/applelogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="LOGIN.CSS">
-     <link rel="stylesheet" href="signin.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="indexmain.css">
+  <link rel="shortcut icon" href="images/applelogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="LOGIN.CSS">
+  <link rel="stylesheet" href="signin.css">
 
 </head>
+
 <body>
   <main>
     <div id="maindiv">
-           <div class="seconddiv">
-            <div class="form">
-                <h1>Create account</h1><br>
-                <form action="" method="post">
-                    <label for="name"><i class="fa-solid fa-user"></i> Username</label><br>
-                    <input type="text" id="name" placeholder="Enter Your Name"><br>
-                    <label for="emailid"><i class="fa-solid fa-envelope"></i> Email id</label><br>
-                     <input id="emailid" type="email" placeholder= "Email id" required> <br>
-                    <label for="pass"><i class="fa-solid fa-lock"></i> Password</label><br>
-                     <input id="pass" type="password" placeholder=" password" required><br>
-                     <label for="num"><i class="fa-solid fa-phone"></i> Number</label><br>
-                     <input id="num" type="number" placeholder="Number" required><br>
-                    <button type="submit">Sign in</button><br>
-                    <!-- <a href="">forget password ?</a> <br><br> -->
-                    <p>Already have an account <a href="login.html"> log in</a></p>
-                </form>
-            </div>
-            <div class="space">
-                <img src="/images/applelogo.png" alt="">
-                <h1>Welcome to Apple</h1>
-            </div>
-           </div>    
-     
+      <div class="seconddiv">
+        <div class="form">
+          <h1>Create account</h1>
+          <form action="indexmain.html" method="">
+            <label for="name"><i class="fa-solid fa-user"></i> Username</label><br>
+            <input type="text" id="name" placeholder="Enter Your Name" required><br>
+            <label for="emailid"><i class="fa-solid fa-envelope"></i> Email id</label><br>
+            <input id="emailid" type="email" placeholder="name@gmail.com" required> <br>
+            <label for="pass"><i class="fa-solid fa-lock"></i> Password</label><br>
+            <input id="pass" type="password" placeholder=" password" required><br>
+            <label for="num"><i class="fa-solid fa-phone"></i> Number</label><br>
+            <input id="num" type="number" placeholder="Phone number" required><br>
+            <a href="indexmain.html"> <button type="submit">Sign in</button></a><br>
+            <!-- <a href="">forget password ?</a> <br><br> -->
+            <p>Already have an account <a href="login.html"> LOG in</a></p>
+          </form>
+        </div>
+        <div class="space">
+          <img src="/images/applelogo.png" alt="">
+          <h1>Welcome to Apple</h1>
+        </div>
+      </div>
+      <div class="form" id="smallsign">
+        <h1>Create account</h1>
+        <form action="indexmain.html" method="post">
+          <label for="name"><i class="fa-solid fa-user"></i> Username</label><br>
+          <input type="text" id="name" placeholder="Enter Your Name" required><br>
+          <label for="emailid"><i class="fa-solid fa-envelope"></i> Email id</label><br>
+          <input id="emailid" type="email" placeholder="Email id" required> <br>
+          <label for="pass"><i class="fa-solid fa-lock"></i> Password</label><br>
+          <input id="pass" type="password" placeholder=" password" required><br>
+          <label for="num"><i class="fa-solid fa-phone"></i> Number</label><br>
+          <input id="num" type="number" placeholder="Number" required><br>
+          <button type="submit"><a href="indexmain.html">Sign in</a></button><br>
+          <p>Already have an account <a href="login.html"> LOG in</a></p>
+        </form>
+      </div>
     </div>
   </main>
 
 </body>
+
 </html>

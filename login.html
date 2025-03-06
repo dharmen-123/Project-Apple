@@ -10,75 +10,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="LOGIN.CSS">
+    <link rel="stylesheet" href="LOGIN.CSS">
 </head>
 
 <body>
     <!-- header part is start from here  -->
     <header>
         <div id="Topbar">
-           <div class="navbar">
-               <div class="logo">
-                   <a href="indexmain.html "><img src="images/applelogo.png" alt=""></a>
-               </div>
-               <nav>
-                  <ul class="links">
-                     <li><a href="Store.html">Store</a></li>
-                     <li><a href="Mac.html">Mac</a></li>
-                     <li><a href="Ipad.html">ipad</a></li>
-                     <li><a href="iphone.html">iphone</a></li>
-                     <li><a href="Watch.html">Watches</a></li>
-                     <li><a href="">Airpods</a></li>
-                     <li><a href="#appletv">Television</a></li>
-                     <li><a href="">Entertainment</a></li>
-                     <li><a href="">Accesories</a></li>
-                     <li><a href="">login</a></li>
-                  </ul>
-               </nav>
-               <div id="iconbutton">
-               <div class="icon" >
-                   <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-               </div>
-               <div class="icon" >
-                   <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-               </div>
-               <div class="barbutton">
-                   <i class="fa-solid fa-bars"></i>
-               </div>
-             </div>
-           </div>
-           <div class="dropdownmenu">
-              <ul>
-                 <li><a href="Store.html">* Store</a></li>
-                 <li><a href="Mac.html">* Mac</a></li>
-                 <li><a href="Ipad.html">* ipad</a></li>
-                 <li><a href="iphone.html">* iphone</a></li>
-                 <li><a href="Watch.html">* Watches</a></li>
-                 <li><a href="">* Airpods</a></li>
-                 <li><a href="">* Television</a></li>
-                 <li><a href="">* Entertainment</a></li>
-                 <li><a href="">* Accesories</a></li>
-                 <li><a href="">* Support</a></li>
-                 <li><a href="login.html">* LOGIN</a></li>
-              </ul>
-           </div>
-         </div>
-     </header>
-     <script>
-         const button = document.querySelector('.barbutton')
-         const buttonicon = document.querySelector('.barbutton i')
-         const dropmenu = document.querySelector('.dropdownmenu')
- 
-         button.onclick = function(){
-             dropmenu.classList.toggle('open')
-             const isOpen =dropmenu.classList.contains('open')
- 
-             buttonicon.classList = isOpen
-             ? 'fa-solid fa-xmark'
-             : 'fa-solid fa-bars'
-         }
+            <div class="navbar">
+                <div class="logo">
+                    <a href="indexmain.html "><img src="images/applelogo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul class="links">
+                        <li><a href="Store.html">Store</a></li>
+                        <li><a href="Mac.html">Mac</a></li>
+                        <li><a href="Ipad.html">ipad</a></li>
+                        <li><a href="iphone.html">iphone</a></li>
+                        <li><a href="Watch.html">Watches</a></li>
+                        <li><a href="">Airpods</a></li>
+                        <li><a href="#appletv">Television</a></li>
+                        <li><a href="">Entertainment</a></li>
+                        <li><a href="">Accesories</a></li>
+                        <li><a href="">login</a></li>
+                    </ul>
+                </nav>
+                <div id="iconbutton">
+                    <div class="icon">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                    <div class="barbutton">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdownmenu">
+                <ul>
+                    <li><a href="Store.html">* Store</a></li>
+                    <li><a href="Mac.html">* Mac</a></li>
+                    <li><a href="Ipad.html">* ipad</a></li>
+                    <li><a href="iphone.html">* iphone</a></li>
+                    <li><a href="Watch.html">* Watches</a></li>
+                    <li><a href="">* Airpods</a></li>
+                    <li><a href="">* Television</a></li>
+                    <li><a href="">* Entertainment</a></li>
+                    <li><a href="">* Accesories</a></li>
+                    <li><a href="">* Support</a></li>
+                    <li><a href="login.html">* LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <script>
+        const button = document.querySelector('.barbutton')
+        const buttonicon = document.querySelector('.barbutton i')
+        const dropmenu = document.querySelector('.dropdownmenu')
+
+        button.onclick = function () {
+            dropmenu.classList.toggle('open')
+            const isOpen = dropmenu.classList.contains('open')
+
+            buttonicon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
     </script>
-     <!-- HEADER part and top navbr part is End -->
+    <!-- HEADER part and top navbr part is End -->
 
     <div id="maindiv">
         <div class="seconddiv">
@@ -89,13 +89,13 @@
             </div>
             <div class="form">
                 <h1>Login</h1><br><br><br>
-                <form action="" method="">
+                <form action="indexmain.html" method="">
                     <!-- <input type="text" placeholder="Enter Your Name"> -->
                     <label for="emailid"><i class="fa-solid fa-envelope"></i> Email</label><br>
-                     <input id="emailid" type="email" placeholder= "Email" required> <br>
+                    <input id="emailid" type="email" placeholder="name@gmail.com" required> <br>
                     <label for="pass"><i class="fa-solid fa-lock"></i> Password</label><br>
-                     <input id="pass" type="password" placeholder=" password" required><br>
-                    <a href="indexmain.html"><button>Login</button></a>  <br>
+                    <input id="pass" type="password" placeholder=" password" required><br>
+                    <button>Login</button><br>
                     <a href="">forget password ?</a> <br><br>
                     <p>Don't Have an account <a href="Signin.html"> Sign in</a></p>
                 </form>
@@ -103,15 +103,15 @@
         </div>
         <div class="smallform">
             <h1>Login</h1><br><br><br>
-            <form action="" method="post">
+            <form action="indexmain.html" method="post">
                 <!-- <input type="text" placeholder="Enter Your Name"> -->
                 <label for="emailid"><i class="fa-solid fa-envelope"></i> Email</label><br>
-                 <input id="emailid" type="email" placeholder= "Email" required> <br>
+                <input id="emailid" type="email" placeholder="name@gmail.com" required> <br>
                 <label for="pass"><i class="fa-solid fa-lock"></i> Password</label><br>
-                 <input id="pass" type="password" placeholder=" password" required><br>
+                <input id="pass" type="password" placeholder=" password" required><br>
                 <button type="submit">Login</button><br>
                 <a href="">forget password ?</a> <br><br>
-                <p>Don't Have an account <a href=""> Sign in</a></p>
+                <p>Don't Have an account <a href="Signin.html"> Sign in</a></p>
             </form>
         </div>
     </div>
