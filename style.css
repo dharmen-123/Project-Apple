@@ -50,8 +50,8 @@
      color: white;
 }
 #Topbar ul li a:hover{
-    color: rgb(4, 225, 41);
-    text-shadow: 7px 7px 10px rgb(15, 250, 3);
+    color: rgb(75, 215, 253);
+    /* text-shadow: 7px 7px 10px rgb(15, 250, 3); */
     /* text-decoration: underline; */
 }
 /* .navbar nav ul li::before{

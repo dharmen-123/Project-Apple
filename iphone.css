@@ -3,4 +3,28 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
+#iphone{
+    padding-top: 3%;
+}
+#iphone div {
+   width: 100%;
+   height: 100%;
+}
+#iphone div img{
+    width: 100%;
+    height: 90vh;
+}
+@media(max-width:700px){
+    #iphone{
+        padding-top: 8%;
+    }
+    #iphone div img{
+        height: auto;
+    }
+}
+@media(min-width:600px)and(max-width:1200px){
+    #iphone div img{
+        /* height: 70vh !important; */
+    }
+  
+}

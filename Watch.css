@@ -24,8 +24,7 @@
    background-position: center;
    background-size:cover;
    background-repeat: no-repeat;
-  animation: flip 3.5s ease-in 1 ;
-
+  /* animation: flip 3.5s ease-in 1 ; */
 }
 
 .watchicon1{

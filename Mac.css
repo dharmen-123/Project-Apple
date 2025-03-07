@@ -194,9 +194,10 @@
 }
 #thirdsec .Macbutton{
     display: flex;
-    gap: 40px;
+    z-index:-10;
+    gap: 30px;
 }
-#thirdsec .Macbutton button{
+#thirdsec .Macbutton a button{
     width: 100px;
     height: 35px;
     background-color: black;
