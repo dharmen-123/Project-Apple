@@ -36,6 +36,7 @@
  #maindiv #smallsign {
     text-align: center;
     align-items: center;
+    backdrop-filter: blur(7px);
     border-radius: 10px;
     /* margin: 1%; */
     border: 4px solid rgb(7, 193, 250);
