@@ -108,13 +108,11 @@
 }
 #trends div{
    height: 450px;
-    /* border: 1px solid black; */
     border-radius: 10px;
     box-shadow: 6px 6px  10px 4px rgb(71, 68, 68);
 }
 #trends div:hover{
     transform: scale(1.020);
-    /* transform:scale(.9); */
 
 }
 .trendimg1{
